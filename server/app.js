@@ -12,6 +12,6 @@ app.use("/graphql", graphqlHTTP({
   graphiql: true
 }));
 
-app.listen(4001, () => {
-  console.log('now listen to 4001')
+app.listen(4000, () => {
+  console.log('now listen to 4000')
 });
